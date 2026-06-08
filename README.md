@@ -1,12 +1,8 @@
 # AutoVSR
 
-<p align="center">
-  <img src="fig/repo-cover.png" alt="AutoVSR repository cover" width="100%">
-</p>
 
-<p align="center">
-  <strong>From circuit schematics to executable IR, symbolic tool planning, and final analytical expressions.</strong>
-</p>
+
+**From circuit schematics to executable IR, symbolic tool planning, and final analytical expressions.**
 
 AutoVSR is a multi-agent visual-symbolic reasoning framework for automatic
 transfer-function and transient-response analysis from circuit schematics and
@@ -23,6 +19,11 @@ for Symbolic Expression Generation from Circuit Schematic** has been accepted
 to **ICML 2026**. For the full method, experiments, and analysis, please see
 [our paper](https://icml.cc/virtual/2026/poster/66479).
 
+## Resources
+
+The `assets/` folder contains the paper, poster, and presentation slides for AutoVSR.  
+The recorded presentation is available [here](https://recorder-v3.slideslive.com/?share=111390&s=d0fc3bf9-5a99-4de6-9e5d-32896fce79e5).
+
 ## Features
 
 - Dual-path reasoning for circuit schematics and block diagrams.
@@ -33,9 +34,7 @@ to **ICML 2026**. For the full method, experiments, and analysis, please see
 
 ## Paper Overview
 
-<p align="center">
-  <img src="fig/overview.png" alt="AutoVSR paper overview" width="100%">
-</p>
+
 
 AutoVSR separates visual-to-symbolic reconstruction from symbolic derivation.
 The framework first routes the input to the appropriate IR space, retrieves
